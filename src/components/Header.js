@@ -17,16 +17,16 @@ function Header() {
             </a>
             <Menu>
                 {cars && cars.map((car)=>{
-                    return <a href='#'>{car}</a>
+                    <a href='/'>{car}</a>
                 })}
-                <a href='#'>Model S</a>
-                <a href='#'>Model 3</a>
-                <a href='#'>Model X</a>
-                <a href='#'>Model Y</a>
+                <a href='/'>Model S</a>
+                <a href='/'>Model 3</a>
+                <a href='/'>Model X</a>
+                <a href='/'>Model Y</a>
             </Menu>
             <RightMenu>
-                <a href='#'>Shop</a>
-                <a href='#'>Account</a>
+                <a href='/'>Shop</a>
+                <a href='/'>Account</a>
                 <CustomMenu onClick={()=>{
                     setBurgerStatus(true);
                 }} />
@@ -38,13 +38,13 @@ function Header() {
                 }}/>
                 </CloseWrapper>
                 {cars && cars.map((car, index)=>(
-                    <li key={index}><a href='#'>{car}</a></li>
+                    <li key={index}><a href='/'>{car}</a></li>
                 ))}
-                <li><a href='#'>Existing Inventory</a></li>
-                <li><a href='#'>Used Inventory</a></li>
-                <li><a href='#'>Trade-In</a></li>
-                <li><a href='#'>Cybertruck</a></li>
-                <li><a href='#'>Roadster</a></li>
+                <li><a href='/'>Existing Inventory</a></li>
+                <li><a href='/'>Used Inventory</a></li>
+                <li><a href='/'>Trade-In</a></li>
+                <li><a href='/'>Cybertruck</a></li>
+                <li><a href='/'>Roadster</a></li>
             </BurgerNav>
         </Container>
     )
