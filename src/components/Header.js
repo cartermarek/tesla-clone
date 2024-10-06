@@ -17,7 +17,7 @@ function Header() {
             </a>
             <Menu>
                 {cars && cars.map((car)=>{
-                    <a href='/'>{car}</a>
+                    return <a href='/'>{car}</a>
                 })}
                 <a href='/'>Model S</a>
                 <a href='/'>Model 3</a>
