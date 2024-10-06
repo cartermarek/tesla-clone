@@ -12,17 +12,17 @@ function Header() {
 
     return (
         <Container>
-            <a>
+            <a href="/">
                 <img src='/images/logo.svg' alt='' />
             </a>
             <Menu>
-                {cars && cars.map((car, index)=>{
-                    <a href='#'>{car}</a>
+                {cars && cars.map((car)=>{
+                    return <a href='#'>{car}</a>
                 })}
-                <a href=''>Model S</a>
-                <a href=''>Model 3</a>
-                <a href=''>Model X</a>
-                <a href=''>Model Y</a>
+                <a href='#'>Model S</a>
+                <a href='#'>Model 3</a>
+                <a href='#'>Model X</a>
+                <a href='#'>Model Y</a>
             </Menu>
             <RightMenu>
                 <a href='#'>Shop</a>
