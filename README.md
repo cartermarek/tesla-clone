@@ -68,3 +68,42 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `yarn build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+A responsive, Tesla-inspired web application built to replicate the sleek UI/UX of Tesla’s official website. The app showcases car models (S, 3, X, Y), inventory tabs, and navigation flows, allowing users to explore vehicle options and shop sections in a polished, modern interface.
+
+Key Features
+
+Dynamic navigation between Model S / 3 / X / Y, Shop, and Account sections
+
+“Existing Inventory,” “Used Inventory,” “Trade-In,” “Cybertruck,” and “Roadster” tabs
+
+Responsive design with Styled Components for modular, theme-based styling
+
+Redux for state management (centralized navigation and UI state across components)
+
+Smooth scrolling, animations, and hover effects for a premium feel
+
+Live demo deployed on Netlify with CI/CD
+
+Tech Stack
+
+ReactJS (functional components, hooks)
+
+Redux (global state management for navigation & UI state)
+
+Styled Components (CSS-in-JS for dynamic styling)
+
+JavaScript (ES6+) for interactivity
+
+CSS3 for layout and responsiveness
+
+Netlify for hosting and continuous deployment
+
+Impact & Learnings
+
+Strengthened skills in React + Redux for scalable state management
+
+Gained hands-on experience with Styled Components and CSS-in-JS for modular design
+
+Delivered a high-fidelity clone project that demonstrates ability to replicate real-world UI/UX at production quality
